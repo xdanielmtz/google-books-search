@@ -1,4 +1,5 @@
 import React from "react";
+import "./navbar.css"
 
 const Navbar = () => {
   return (
@@ -6,17 +7,14 @@ const Navbar = () => {
       <nav>
         <div className="nav-wrapper">
           <a href="#" className="brand-logo center">
-            Logo
+            Google Books
           </a>
           <ul id="nav-mobile" className="left hide-on-med-and-down">
             <li>
-              <a href="sass.html">Sass</a>
+              <a href="sass.html">Search</a>
             </li>
             <li>
-              <a href="badges.html">Components</a>
-            </li>
-            <li>
-              <a href="collapsible.html">JavaScript</a>
+              <a href="badges.html">Saved</a>
             </li>
           </ul>
         </div>
