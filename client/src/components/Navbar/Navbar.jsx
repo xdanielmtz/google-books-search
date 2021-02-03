@@ -4,7 +4,7 @@ import "./navbar.css"
 const Navbar = () => {
   return (
     <>
-      <nav>
+      <nav className="theNav">
         <div className="nav-wrapper">
           <a href="#" className="brand-logo center">
             Google Books
