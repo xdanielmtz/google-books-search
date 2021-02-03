@@ -2,7 +2,7 @@ function App() {
   return (
     <>
     <h1>
-      Hello world what the hell is going on here right now
+      Hello world
     </h1>
     </>
   );
