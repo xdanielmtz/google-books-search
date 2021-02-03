@@ -1,7 +1,9 @@
+const { default: Navbar } = require("./components/Navbar/Navbar");
+
 function App() {
   return (
     <>
-    
+    <Navbar/>
     </>
   );
 }
