@@ -6,7 +6,7 @@ const SearchForm = () => {
 
  const handleFormSubmit = (e) => {
    e.preventDefault();
-   axios.get("https://www.googleapis.com/books/v1/volumes?q=harry+potter&key=" + "AIzaSyC4JtYVWvDBunQSiQ0oPblmcl50r48HNQE").then((response) => {
+   axios.get(`https://www.googleapis.com/books/v1/volumes?q=${search}&key=AIzaSyC4JtYVWvDBunQSiQ0oPblmcl50r48HNQE`).then((response) => {
      console.log(response.data)
    })
  }
